@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Adote um Amigo 🐾
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Sobre o projeto
 
-## Available Scripts
+**Adote um Amigo** é uma aplicação web desenvolvida em **React** com o objetivo de facilitar a visualização e o interesse na adoção de animais.  
+O sistema apresenta cães, gatos e outros animais disponíveis para adoção, exibindo perfis detalhados, filtros de busca, orientações sobre adoção responsável e um formulário de cadastro de interesse.
 
-In the project directory, you can run:
+O projeto foi desenvolvido como **trabalho individual acadêmico**, com foco em:
+- consumo de APIs externas;
+- rotas dinâmicas;
+- interface amigável;
+- organização do código;
+- publicação online.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Listagem de animais disponíveis para adoção
+- Consumo de API externa para cães
+- Consumo de API externa para gatos
+- Inclusão de animais locais (hamster, coelho, calopsita, etc.)
+- Página de detalhes de cada animal
+- Botão **Quero adotar** na página de detalhes
+- Redirecionamento para o cadastro com animal pré-selecionado
+- Filtros por:
+  - nome
+  - espécie
+  - cidade
+- Ordenação por:
+  - Nome A-Z
+  - Nome Z-A
+  - Espécie
+- Botão para limpar filtros
+- Página de orientações para adoção responsável
+- Formulário de cadastro com validação de:
+  - nome
+  - e-mail
+  - telefone
+  - idade
+  - estado
+  - cidade
+  - animal de interesse
+  - mensagem
+- Seleção de estados e cidades do Brasil via API do IBGE
+- Layout responsivo
+- Rodapé informativo
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias utilizadas
 
-### `npm run build`
+- **React**
+- **React Router DOM**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **Axios**
+- **Create React App**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### APIs utilizadas
+- [The Dog API](https://thedogapi.com/)
+- [The Cat API](https://thecatapi.com/)
+- [API de localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estrutura básica do projeto
 
-### `npm run eject`
+```bash
+src/
+├── components/
+│   ├── Navbar.js
+│   ├── Footer.js
+│   └── AnimalCard.js
+│
+├── pages/
+│   ├── Home.js
+│   ├── Animals.js
+│   ├── AnimalDetails.js
+│   ├── Tips.js
+│   └── Register.js
+│
+├── services/
+│   └── api.js
+│
+├── App.js
+├── App.css
+└── index.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Como executar o projeto localmente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clonar o repositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/SEU-USUARIO/adoption-app.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 📌 No seu caso AGORA
+Como você já está com o projeto pronto no seu PC, o próximo passo real é:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **subir o projeto para o GitHub**
 
-### Code Splitting
+Porque só depois você vai ter esse link real.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 🔥 Resumindo simples
+## Isso:
+```bash
+git clone LINK_DO_SEU_REPOSITORIO
