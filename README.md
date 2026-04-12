@@ -1,11 +1,12 @@
 # Adote um Amigo 🐾
 
 ## 📌 Sobre o projeto
+**Adote um Amigo** é uma aplicação web desenvolvida em **React** com o objetivo de facilitar a visualização e o interesse na adoção de animais.
 
-**Adote um Amigo** é uma aplicação web desenvolvida em **React** com o objetivo de facilitar a visualização e o interesse na adoção de animais.  
-O sistema apresenta cães, gatos e outros animais disponíveis para adoção, exibindo perfis detalhados, filtros de busca, orientações sobre adoção responsável e um formulário de cadastro de interesse.
+O sistema apresenta **cães, gatos e outros animais** disponíveis para adoção, exibindo perfis detalhados, filtros de busca, orientações sobre adoção responsável e um formulário de cadastro de interesse.
 
 O projeto foi desenvolvido como **trabalho individual acadêmico**, com foco em:
+
 - consumo de APIs externas;
 - rotas dinâmicas;
 - interface amigável;
@@ -50,17 +51,17 @@ O projeto foi desenvolvido como **trabalho individual acadêmico**, com foco em:
 
 ## 🛠️ Tecnologias utilizadas
 
-- **React**
-- **React Router DOM**
-- **JavaScript (ES6+)**
-- **CSS3**
-- **Axios**
-- **Create React App**
+- React
+- React Router DOM
+- JavaScript (ES6+)
+- CSS3
+- Axios
+- Create React App
 
 ### APIs utilizadas
-- [The Dog API](https://thedogapi.com/)
-- [The Cat API](https://thecatapi.com/)
-- [API de localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+- The Dog API
+- The Cat API
+- API de localidades do IBGE
 
 ---
 
@@ -86,27 +87,3 @@ src/
 ├── App.js
 ├── App.css
 └── index.js
-
-## ⚙️ Como executar o projeto localmente
-
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/SEU-USUARIO/adoption-app.git
-
-
----
-
-# 📌 No seu caso AGORA
-Como você já está com o projeto pronto no seu PC, o próximo passo real é:
-
-## **subir o projeto para o GitHub**
-
-Porque só depois você vai ter esse link real.
-
----
-
-# 🔥 Resumindo simples
-## Isso:
-```bash
-git clone LINK_DO_SEU_REPOSITORIO
