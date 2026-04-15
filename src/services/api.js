@@ -99,7 +99,7 @@ export async function getAllAnimals() {
       age: "8 meses",
       location: "Franca - SP",
       image:
-        "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80",
+        "https://cdn0.peritoanimal.com.br/pt/razas/0/8/3/calopsita_380_0_600.webp",
       description:
         "Ave sociável, comunicativa e acostumada com pessoas.",
       origin: "Resgatada",

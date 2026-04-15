@@ -25,7 +25,7 @@ function Home() {
 
         <div className="hero-image">
           <img
-            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1000&q=80"
+            src="/nina.jpg"
             alt="Cachorro olhando para a câmera"
           />
         </div>
