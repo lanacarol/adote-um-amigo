@@ -113,19 +113,19 @@ Dicas (Dicas) : orientações para adoção responsável
 Rodapé (Rodapé) : bloco informativo no final da aplicação
 services/api.js : centraliza as chamadas às APIs externas
 
-![Página Inicial](./prints/print14.png)
-![Página Inicial](./prints/print15.png)
-![Página Inicial](./prints/print16.png)
-![Página de Animais](./prints/print17.png) 
-![Página de Animais](./prints/print18.png) 
-![Página de Animais](./prints/print19.png) 
-![Detalhes do Animal](./prints/print20.png) 
-![Página de Animais](./prints/print26.png) 
-![Cadastro](./prints/print21.png) 
-![Cadastro](./prints/print22.png) 
-![Cadastro](./prints/print25.png) 
-![Orientações](./prints/print23.png)
-![Orientações](./prints/print24.png)
+![Página Inicial](prints/print14.png)
+![Página Inicial](prints/print15.png)
+![Página Inicial](prints/print16.png)
+![Página de Animais](prints/print17.png) 
+![Página de Animais](prints/print18.png) 
+![Página de Animais](prints/print19.png) 
+![Detalhes do Animal](prints/print20.png) 
+![Página de Animais](prints/print26.png) 
+![Cadastro](prints/print21.png) 
+![Cadastro](prints/print22.png) 
+![Cadastro](prints/print25.png) 
+![Orientações](prints/print23.png)
+![Orientações](prints/print24.png)
 
 ⚙️ Como executar o projeto localmente
 1. Clonar o repositório
