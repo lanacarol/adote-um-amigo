@@ -20,7 +20,7 @@ O projeto foi desenvolvido como **trabalho individual acadêmico**, com foco em:
 - Listagem de animais disponíveis para adoção
 - Consumo de API externa para cães
 - Consumo de API externa para gatos
-- Inclusão de animais locais (hamster, coelho, calopsita, etc.)
+- Inclusão de animais locais (hamster, coelho, calopsita, porquinho-da-índia e outros)
 - Página de detalhes de cada animal
 - Botão **Quero adotar** na página de detalhes
 - Redirecionamento para o cadastro com animal pré-selecionado
@@ -65,6 +65,12 @@ O projeto foi desenvolvido como **trabalho individual acadêmico**, com foco em:
 
 ---
 
+## 🌐 Link da aplicação online
+
+[🔗 Acesse o aplicativo online](http://adote-um-amigo-nine.vercel.app)
+
+---
+
 ## 📂 Estrutura básica do projeto
 
 ```bash
@@ -87,3 +93,74 @@ src/
 ├── App.js
 ├── App.css
 └── index.js
+
+Aplicativo
+├── Barra de Navegação
+├── Rotas
+│   ├── Início
+│   ├── Animais
+│   │   └── Ficha do Animal
+│   ├── Detalhes do Animal
+│   ├── Dicas
+│   └── Cadastre-se
+└── Rodapé
+
+Organização das páginas e componentes
+Animals : listagem dos animais com filtros e ordenação
+AnimalDetails : exibe detalhes do animal selecionado via rota dinâmica
+Cadastro (Cadastro) : formulário de cadastro de interesse
+Dicas (Dicas) : orientações para adoção responsável
+Rodapé (Rodapé) : bloco informativo no final da aplicação
+services/api.js : centraliza as chamadas às APIs externas
+
+![Página Inicial](./prints/print(14).png)
+![Página Inicial](./prints/print(15).png)
+![Página Inicial](./prints/print(16).png)
+![Página de Animais](./prints/print(17).png) 
+![Página de Animais](./prints/print(18).png) 
+![Página de Animais](./prints/print(19).png) 
+![Detalhes do Animal](./prints/print(20).png) 
+![Página de Animais](./prints/print(26).png) 
+![Cadastro](./prints/print(21).png) 
+![Cadastro](./prints/print(22).png) 
+![Cadastro](./prints/print(25).png) 
+![Orientações](./prints/print(23).png)
+![Orientações](./prints/print(24).png)
+
+⚙️ Como executar o projeto localmente
+1. Clonar o repositório
+git clone https://github.com/lanacarol/adote-um-amigo.git
+2. Acessar a pasta do projeto
+cd adote-um-amigo
+3. Instalar as dependências
+npm install
+4. Criar o arquivo .env
+
+Na raiz do projeto, crie um arquivo chamado .env e adicione:
+
+REACT_APP_DOG_API_KEY=sua_chave_aqui 
+REACT_APP_CAT_API_KEY=sua_chave_aqui
+5. Executar o projeto
+npm start 
+
+O aplicativo será aberto em:
+
+http://localhost:3000
+
+📚 Considerações finais
+
+O projeto Adote um Amigo foi desenvolvido com o propósito de aplicar, na prática, conceitos fundamentais do desenvolvimento front-end com React, incluindo:
+
+consumo de APIs externas;
+componentização;
+roteamento com rotas dinâmicas;
+manipulação de estados;
+formulários com validação;
+integração com serviços externos;
+publicação em ambiente online.
+
+Além do aspecto técnico, o sistema também busca promover a conscientização sobre a adoção responsável de animais , unindo tecnologia e propósito social em uma aplicação funcional, organizada e intuitiva.
+
+👩‍💻 Autora
+
+Projeto desenvolvido por Lana Molina como trabalho acadêmico individual para a disciplina de desenvolvimento web com React.
