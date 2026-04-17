@@ -77,6 +77,7 @@ src/
 ├── components/
 │   ├── Navbar.js
 │   ├── Footer.js
+│   ├── Header.js
 │   └── AnimalCard.js
 │
 ├── pages/
@@ -125,6 +126,8 @@ services/api.js : centraliza as chamadas às APIs externas
 ![Cadastro](./prints/print25.png) 
 ![Orientações](./prints/print23.png)
 ![Orientações](./prints/print24.png)
+![Arquitetura de aplicação](./prints/Requisitosdesoftware.jpg)
+![Arquitetura de aplicação](./prints/organização.png)
 
 ⚙️ Como executar o projeto localmente
 1. Clonar o repositório
